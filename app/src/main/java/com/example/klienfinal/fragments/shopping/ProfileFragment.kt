@@ -11,14 +11,14 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
-import com.example.kleine.model.User
-import com.example.kleine.resource.Resource
-import com.example.kleine.util.Constants.Companion.UPDATE_ADDRESS_FLAG
-import com.example.kleine.viewmodel.shopping.ShoppingViewModel
 import com.example.klienfinal.R
 import com.example.klienfinal.activities.LunchActivity
 import com.example.klienfinal.activities.ShoppingActivity
 import com.example.klienfinal.databinding.FragmentProfileBinding
+import com.example.klienfinal.model.User
+import com.example.klienfinal.resource.Resource
+import com.example.klienfinal.util.Constants.Companion.UPDATE_ADDRESS_FLAG
+import com.example.klienfinal.viewmodel.shopping.ShoppingViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
@@ -57,11 +57,18 @@ class ProfileFragment : Fragment() {
         onTrackOrderClick()
         onLanguageClick()
         onHelpClick()
+        onSellerClick()
 
         observeProfile()
         binding.tvVersionCode.text =
             "${resources.getText(R.string.g_version)} ${BuildConfig.VERSION_CODE}"
 
+    }
+
+    private fun onSellerClick() {
+        binding.sellOrders.setOnClickListener {
+          findNavController().navigate(R.id.action_profileFragment_to_sellFragment)
+        }
     }
 
     private fun onHelpClick() {
@@ -73,7 +80,7 @@ class ProfileFragment : Fragment() {
 
     private fun onLanguageClick() {
         binding.linearLanguage.setOnClickListener {
-            findNavController().navigate(R.id.action_profileFragment_to_languageFragment)
+            Toast.makeText(requireContext(), "Will be available in Future", Toast.LENGTH_SHORT).show()
         }
     }
 

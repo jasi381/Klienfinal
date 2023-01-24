@@ -1,4 +1,4 @@
-package com.example.kleine.model
+package com.example.klienfinal.model
 
 data class Store(
     val name:String,

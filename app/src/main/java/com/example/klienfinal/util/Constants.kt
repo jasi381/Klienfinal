@@ -1,4 +1,4 @@
-package com.example.kleine.util
+package com.example.klienfinal.util
 
 class Constants {
 

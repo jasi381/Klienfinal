@@ -11,18 +11,17 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.kleine.SpacingDecorator.VerticalSpacingItemDecorator
-import com.example.kleine.fragments.settings.OrderDetailsArgs
-import com.example.kleine.resource.Resource
-import com.example.kleine.util.Constants.Companion.ORDER_CONFIRM_STATE
-import com.example.kleine.util.Constants.Companion.ORDER_Delivered_STATE
-import com.example.kleine.util.Constants.Companion.ORDER_PLACED_STATE
-import com.example.kleine.util.Constants.Companion.ORDER_SHIPPED_STATE
-import com.example.kleine.viewmodel.shopping.ShoppingViewModel
 import com.example.klienfinal.R
+import com.example.klienfinal.SpacingDecorator.VerticalSpacingItemDecorator
 import com.example.klienfinal.activities.ShoppingActivity
 import com.example.klienfinal.adapters.recyclerview.CartRecyclerAdapter
 import com.example.klienfinal.databinding.FragmentOrderDetailsBinding
+import com.example.klienfinal.resource.Resource
+import com.example.klienfinal.util.Constants.Companion.ORDER_CONFIRM_STATE
+import com.example.klienfinal.util.Constants.Companion.ORDER_Delivered_STATE
+import com.example.klienfinal.util.Constants.Companion.ORDER_PLACED_STATE
+import com.example.klienfinal.util.Constants.Companion.ORDER_SHIPPED_STATE
+import com.example.klienfinal.viewmodel.shopping.ShoppingViewModel
 
 class OrderDetails : Fragment() {
     val TAG = "OrderDetails"

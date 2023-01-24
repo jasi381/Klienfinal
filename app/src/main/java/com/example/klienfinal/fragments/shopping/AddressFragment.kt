@@ -10,13 +10,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.kleine.fragments.shopping.AddressFragmentArgs
-import com.example.kleine.model.Address
-import com.example.kleine.resource.Resource
-import com.example.kleine.viewmodel.shopping.ShoppingViewModel
 import com.example.klienfinal.R
 import com.example.klienfinal.activities.ShoppingActivity
 import com.example.klienfinal.databinding.FragmentAddressBinding
+import com.example.klienfinal.model.Address
+import com.example.klienfinal.resource.Resource
+import com.example.klienfinal.viewmodel.shopping.ShoppingViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 

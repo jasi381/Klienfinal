@@ -12,14 +12,15 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kleine.SpacingDecorator.HorizantalSpacingItemDecorator
-import com.example.kleine.resource.Resource
-import com.example.kleine.util.Constants
-import com.example.kleine.viewmodel.shopping.ShoppingViewModel
+
 import com.example.klienfinal.R
+import com.example.klienfinal.SpacingDecorator.HorizantalSpacingItemDecorator
 import com.example.klienfinal.activities.ShoppingActivity
 import com.example.klienfinal.adapters.recyclerview.ProductsRecyclerAdapter
 import com.example.klienfinal.databinding.FragmentChairBinding
+import com.example.klienfinal.resource.Resource
+import com.example.klienfinal.util.Constants
+import com.example.klienfinal.viewmodel.shopping.ShoppingViewModel
 
 
 class ChairFragment : Fragment() {

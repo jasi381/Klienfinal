@@ -1,16 +1,16 @@
-package com.example.kleine.viewmodel.shopping
+package com.example.klienfinal.viewmodel.shopping
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.kleine.firebaseDatabase.FirebaseDb
-import com.example.kleine.model.*
-import com.example.kleine.resource.Resource
-import com.example.kleine.util.Constants.Companion.ACCESSORY_CATEGORY
-import com.example.kleine.util.Constants.Companion.CHAIR_CATEGORY
-import com.example.kleine.util.Constants.Companion.CUPBOARD_CATEGORY
-import com.example.kleine.util.Constants.Companion.FURNITURE_CATEGORY
-import com.example.kleine.util.Constants.Companion.TABLES_CATEGORY
+import com.example.klienfinal.firebaseDatabase.FirebaseDb
+import com.example.klienfinal.model.*
+import com.example.klienfinal.resource.Resource
+import com.example.klienfinal.util.Constants.Companion.ACCESSORY_CATEGORY
+import com.example.klienfinal.util.Constants.Companion.CHAIR_CATEGORY
+import com.example.klienfinal.util.Constants.Companion.CUPBOARD_CATEGORY
+import com.example.klienfinal.util.Constants.Companion.FURNITURE_CATEGORY
+import com.example.klienfinal.util.Constants.Companion.TABLES_CATEGORY
 import com.google.firebase.firestore.FirebaseFirestore
 import java.util.*
 
@@ -115,7 +115,7 @@ class ShoppingViewModel(
                             furniture.postValue(Resource.Error(it.exception.toString()))
                     }
             } else
-                furniture.postValue(Resource.Error("Cannot paging"))
+                furniture.postValue(Resource.Error("Cannot page"))
 
         }
     }
@@ -269,7 +269,7 @@ class ShoppingViewModel(
                             mostRequestedChairs.postValue(Resource.Error(it.exception.toString()))
                     }
             } else
-                chairs.postValue(Resource.Error("Cannot paging"))
+                chairs.postValue(Resource.Error("Cannot page"))
         }
     }
 
@@ -298,7 +298,7 @@ class ShoppingViewModel(
                             tables.postValue(Resource.Error(it.exception.toString()))
                     }
             } else
-                home.postValue(Resource.Error("Cannot paging"))
+                home.postValue(Resource.Error("Cannot page"))
         }
     }
 
@@ -415,7 +415,7 @@ class ShoppingViewModel(
 
 
             } else
-                mostRequestedCupboard.postValue(Resource.Error("Cannot paging"))
+                mostRequestedCupboard.postValue(Resource.Error("Cannot page"))
         }
     }
 

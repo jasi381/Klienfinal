@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kleine.util.Constants.Companion.COLORS_TYPE
 import com.example.klienfinal.R
 import com.example.klienfinal.databinding.ColorAndSizesBinding
+import com.example.klienfinal.util.Constants.Companion.COLORS_TYPE
 
 class ColorsAndSizesAdapter(var type: String = COLORS_TYPE) :
     RecyclerView.Adapter<ColorsAndSizesAdapter.ColorsAndSizesAdapterViewHolder>() {

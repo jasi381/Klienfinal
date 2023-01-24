@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.kleine.util.Constants.Companion.SHOULD_SHOW
-import com.example.kleine.util.Constants.Companion.SPLASH_SHARED_PREF
 import com.example.klienfinal.R
 import com.example.klienfinal.databinding.FragmentFirstScreenBinding
+import com.example.klienfinal.util.Constants.Companion.SHOULD_SHOW
+import com.example.klienfinal.util.Constants.Companion.SPLASH_SHARED_PREF
 
 class FirstScreenFragment : Fragment() {
     private lateinit var binding: FragmentFirstScreenBinding

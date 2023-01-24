@@ -1,4 +1,4 @@
-package com.example.kleine.helpers
+package com.example.klienfinal.helpers
 
 import android.annotation.TargetApi
 import android.content.Context
@@ -36,7 +36,7 @@ internal object LocaleHelper {
     private fun updateResources(context: Context, language: String): Context {
         val locale = Locale(language)
         Locale.setDefault(locale)
-        val configuration: Configuration = context.getResources().getConfiguration()
+        val configuration: Configuration = context.resources.configuration
         configuration.setLocale(locale)
         configuration.setLayoutDirection(locale)
         return context.createConfigurationContext(configuration)
@@ -45,13 +45,13 @@ internal object LocaleHelper {
     private fun updateResourcesLegacy(context: Context, language: String): Context {
         val locale = Locale(language)
         Locale.setDefault(locale)
-        val resources: Resources = context.getResources()
-        val configuration: Configuration = resources.getConfiguration()
+        val resources: Resources = context.resources
+        val configuration: Configuration = resources.configuration
         configuration.locale = locale
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
             configuration.setLayoutDirection(locale)
         }
-        resources.updateConfiguration(configuration, resources.getDisplayMetrics())
+        resources.updateConfiguration(configuration, resources.displayMetrics)
         return context
     }
 }

@@ -8,13 +8,13 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kleine.model.Order
-import com.example.kleine.util.Constants.Companion.ORDER_CONFIRM_STATE
-import com.example.kleine.util.Constants.Companion.ORDER_Delivered_STATE
-import com.example.kleine.util.Constants.Companion.ORDER_PLACED_STATE
-import com.example.kleine.util.Constants.Companion.ORDER_SHIPPED_STATE
 import com.example.klienfinal.R
 import com.example.klienfinal.databinding.RecyclerViewAllOrdersItemBinding
+import com.example.klienfinal.model.Order
+import com.example.klienfinal.util.Constants.Companion.ORDER_CONFIRM_STATE
+import com.example.klienfinal.util.Constants.Companion.ORDER_Delivered_STATE
+import com.example.klienfinal.util.Constants.Companion.ORDER_PLACED_STATE
+import com.example.klienfinal.util.Constants.Companion.ORDER_SHIPPED_STATE
 import java.text.SimpleDateFormat
 
 class AllOrdersAdapter : RecyclerView.Adapter<AllOrdersAdapter.AllOrdersAdapterViewHolder>() {

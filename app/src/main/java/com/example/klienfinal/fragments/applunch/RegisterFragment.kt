@@ -11,12 +11,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import br.com.simplepass.loadingbutton.customViews.CircularProgressButton
-import com.example.kleine.model.User
-import com.example.kleine.resource.Resource
-import com.example.kleine.viewmodel.lunchapp.KleineViewModel
 import com.example.klienfinal.R
 import com.example.klienfinal.activities.LunchActivity
 import com.example.klienfinal.databinding.FragmentRegisterBinding
+import com.example.klienfinal.model.User
+import com.example.klienfinal.resource.Resource
+import com.example.klienfinal.viewmodel.lunchapp.KleineViewModel
 
 private const val TAG = "RegisterFragment"
 

@@ -6,8 +6,8 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.kleine.model.Category
 import com.example.klienfinal.databinding.RecyclerViewCategoryItemBinding
+import com.example.klienfinal.model.Category
 
 class CategoriesRecyclerAdapter : RecyclerView.Adapter<CategoriesRecyclerAdapter.CategoriesRecyclerAdapterViewHolder>() {
     inner class CategoriesRecyclerAdapterViewHolder(val binding: RecyclerViewCategoryItemBinding) : RecyclerView.ViewHolder(binding.root)

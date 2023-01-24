@@ -6,11 +6,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.kleine.fragments.shopping.OrderCompletionArgs
-import com.example.kleine.util.Constants.Companion.ORDER_FAILED_FLAG
-import com.example.kleine.util.Constants.Companion.ORDER_SUCCESS_FLAG
 import com.example.klienfinal.R
 import com.example.klienfinal.databinding.FragmentOrderCompletionBinding
+import com.example.klienfinal.util.Constants.Companion.ORDER_FAILED_FLAG
+import com.example.klienfinal.util.Constants.Companion.ORDER_SUCCESS_FLAG
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class OrderCompletion : Fragment() {

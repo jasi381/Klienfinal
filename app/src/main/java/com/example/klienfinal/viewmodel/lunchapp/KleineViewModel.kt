@@ -1,14 +1,13 @@
-package com.example.kleine.viewmodel.lunchapp
+package com.example.klienfinal.viewmodel.lunchapp
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.kleine.firebaseDatabase.FirebaseDb
-import com.example.kleine.model.User
-import com.example.kleine.resource.Resource
+import com.example.klienfinal.firebaseDatabase.FirebaseDb
+import com.example.klienfinal.model.User
+import com.example.klienfinal.resource.Resource
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
 
 class KleineViewModel(

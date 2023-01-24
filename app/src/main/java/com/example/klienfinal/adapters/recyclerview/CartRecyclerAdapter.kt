@@ -10,9 +10,9 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.kleine.model.CartProduct
-import com.example.kleine.util.Constants.Companion.CART_FLAG
 import com.example.klienfinal.databinding.CartItemBinding
+import com.example.klienfinal.model.CartProduct
+import com.example.klienfinal.util.Constants.Companion.CART_FLAG
 
 class CartRecyclerAdapter(
     private val itemFlag: String = CART_FLAG

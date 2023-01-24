@@ -1,13 +1,13 @@
-package com.example.kleine.viewmodel.shopping
+package com.example.klienfinal.viewmodel.shopping
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.kleine.firebaseDatabase.FirebaseDb
+import com.example.klienfinal.firebaseDatabase.FirebaseDb
 
 class ShoppingViewModelProviderFactory(
-    val db:FirebaseDb
+    val db: FirebaseDb
 ) : ViewModelProvider.Factory {
-    override fun <T : ViewModel?> create(modelClass: Class<T>): T {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
         return ShoppingViewModel(db) as T
     }
 }

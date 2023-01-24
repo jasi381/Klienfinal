@@ -18,13 +18,12 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
-import com.example.kleine.fragments.settings.EditUserInformationFragmentArgs
-import com.example.kleine.model.User
-import com.example.kleine.resource.Resource
-import com.example.kleine.viewmodel.shopping.ShoppingViewModel
 import com.example.klienfinal.R
 import com.example.klienfinal.activities.ShoppingActivity
 import com.example.klienfinal.databinding.FragmentEditUserInformationBinding
+import com.example.klienfinal.model.User
+import com.example.klienfinal.resource.Resource
+import com.example.klienfinal.viewmodel.shopping.ShoppingViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth

@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.kleine.viewmodel.shopping.ShoppingViewModel
 import com.example.klienfinal.R
 import com.example.klienfinal.activities.ShoppingActivity
 import com.example.klienfinal.adapters.viewpager.HomeViewpagerAdapter
 import com.example.klienfinal.databinding.FragmentHomeBinding
 import com.example.klienfinal.fragments.categories.*
+import com.example.klienfinal.viewmodel.shopping.ShoppingViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayoutMediator

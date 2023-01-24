@@ -15,18 +15,17 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.kleine.SpacingDecorator.HorizantalSpacingItemDecorator
-import com.example.kleine.fragments.shopping.BillingFragmentArgs
-import com.example.kleine.model.Address
-import com.example.kleine.resource.Resource
-import com.example.kleine.util.Constants.Companion.ORDER_FAILED_FLAG
-import com.example.kleine.util.Constants.Companion.ORDER_SUCCESS_FLAG
-import com.example.kleine.util.Constants.Companion.UPDATE_ADDRESS_FLAG
-import com.example.kleine.viewmodel.billing.BillingViewModel
 import com.example.klienfinal.R
+import com.example.klienfinal.SpacingDecorator.HorizantalSpacingItemDecorator
 import com.example.klienfinal.adapters.recyclerview.BillingProductsAdapter
 import com.example.klienfinal.adapters.recyclerview.ShippingAddressesAdapter
 import com.example.klienfinal.databinding.FragmentBillingBinding
+import com.example.klienfinal.model.Address
+import com.example.klienfinal.resource.Resource
+import com.example.klienfinal.util.Constants.Companion.ORDER_FAILED_FLAG
+import com.example.klienfinal.util.Constants.Companion.ORDER_SUCCESS_FLAG
+import com.example.klienfinal.util.Constants.Companion.UPDATE_ADDRESS_FLAG
+import com.example.klienfinal.viewmodel.billing.BillingViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class BillingFragment : Fragment() {

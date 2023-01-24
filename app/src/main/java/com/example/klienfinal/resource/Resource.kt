@@ -1,4 +1,4 @@
-package com.example.kleine.resource
+package com.example.klienfinal.resource
 
 sealed class Resource<T>(
     val data :T?=null,

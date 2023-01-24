@@ -6,10 +6,10 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kleine.model.Address
-import com.example.kleine.util.Constants.Companion.SELECT_ADDRESS_FLAG
 import com.example.klienfinal.R
 import com.example.klienfinal.databinding.RecyclerviewShippingItemBinding
+import com.example.klienfinal.model.Address
+import com.example.klienfinal.util.Constants.Companion.SELECT_ADDRESS_FLAG
 
 class ShippingAddressesAdapter(
     val ADDRESS_CLICK_FLAG : String

@@ -9,12 +9,12 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.kleine.resource.Resource
-import com.example.kleine.viewmodel.shopping.ShoppingViewModel
 import com.example.klienfinal.R
 import com.example.klienfinal.activities.ShoppingActivity
 import com.example.klienfinal.adapters.recyclerview.AllOrdersAdapter
 import com.example.klienfinal.databinding.FragmentAllOrdersBinding
+import com.example.klienfinal.resource.Resource
+import com.example.klienfinal.viewmodel.shopping.ShoppingViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 

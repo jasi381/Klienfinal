@@ -9,12 +9,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
-import com.example.kleine.firebaseDatabase.FirebaseDb
-import com.example.kleine.resource.Resource
-import com.example.kleine.viewmodel.shopping.ShoppingViewModel
-import com.example.kleine.viewmodel.shopping.ShoppingViewModelProviderFactory
-import com.example.kleine.viewmodel.shopping.cart.CartViewModel
 import com.example.klienfinal.R
+import com.example.klienfinal.firebaseDatabase.FirebaseDb
+import com.example.klienfinal.resource.Resource
+import com.example.klienfinal.viewmodel.shopping.ShoppingViewModel
+import com.example.klienfinal.viewmodel.shopping.ShoppingViewModelProviderFactory
+import com.example.klienfinal.viewmodel.shopping.cart.CartViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 private const val TAG = "ShoppingActivity"

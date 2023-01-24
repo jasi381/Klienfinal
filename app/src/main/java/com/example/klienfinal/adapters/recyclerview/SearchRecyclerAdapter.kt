@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kleine.model.Product
 import com.example.klienfinal.databinding.RecyclerviewSearchItemBinding
+import com.example.klienfinal.model.Product
 
 class SearchRecyclerAdapter : RecyclerView.Adapter<SearchRecyclerAdapter.SearchViewHolder>() {
     var onItemClick: ((Product) -> Unit)? = null
